@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Domain for Purchase — ₹4,999</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--glass: rgba(255,255,255,0.06);--accent1:#6c5ce7;--accent2:#00b894}
+    *{box-sizing:border-box}
+    body{font-family:'Inter',system-ui,Segoe UI,Roboto,Helvetica,Arial;background:linear-gradient(135deg,#3b82f6 0%,#06b6d4 100%);margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem}
+    .wrap{width:100%;max-width:980px}
+    .card{background:linear-gradient(180deg, rgba(0,0,0,0.25), rgba(255,255,255,0.02));backdrop-filter:blur(8px);border-radius:18px;padding:2rem;border:1px solid rgba(255,255,255,0.06);box-shadow:0 20px 40px rgba(2,6,23,0.35)}
+    .hero-grid{display:grid;grid-template-columns:1fr 320px;gap:1.5rem;align-items:center}
+    .headline{color:#fff}
+    h1{font-size:clamp(1.6rem,3.6vw,2.4rem);margin:0 0 .4rem;font-weight:800;letter-spacing:-0.02em}
+    p.lead{color:rgba(255,255,255,0.88);margin:0 0 1rem}
+    .price-badge{display:inline-flex;align-items:center;gap:.6rem;padding:.5rem .9rem;border-radius:999px;background:linear-gradient(90deg,var(--accent1),var(--accent2));color:#fff;font-weight:700;box-shadow:0 6px 18px rgba(2,6,23,0.25)}
+    .domain-name{display:inline-block;background:rgba(255,255,255,0.06);padding:.35rem .6rem;border-radius:8px;font-weight:700}
+    .cta{margin-top:1.1rem}
+    .btn-contact{background:#fff;color:#0b1220;font-weight:700;padding:.75rem 1.25rem;border-radius:999px;border:none}
+    .btn-contact:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(2,6,23,0.12)}
+
+    /* right card */
+    .right-card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));padding:1.2rem;border-radius:12px;text-align:center;border:1px solid rgba(255,255,255,0.04)}
+    .tag-icon{width:96px;height:96px;margin:0 auto 0.6rem;display:grid;place-items:center;border-radius:14px;background:linear-gradient(135deg,var(--accent1),var(--accent2));box-shadow:0 10px 30px rgba(2,6,23,0.25)}
+    .tag-icon svg{filter:drop-shadow(0 6px 18px rgba(2,6,23,0.25))}
+    .small-muted{color:rgba(255,255,255,0.78)}
+    .specs{margin-top:.8rem;text-align:left}
+    .specs li{margin-bottom:.5rem;color:rgba(255,255,255,0.9)}
+
+    /* subtle animated background shapes */
+    .bg-shape{position:fixed;pointer-events:none;z-index:0;opacity:0.12}
+    .bg-shape.one{right:-80px;top:-60px;width:420px;transform:rotate(12deg)}
+    .bg-shape.two{left:-60px;bottom:-120px;width:500px;transform:rotate(-8deg)}
+
+    @media (max-width:900px){
+      .hero-grid{grid-template-columns:1fr;}
+      .right-card{order:-1}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card position-relative">
+      <div class="hero-grid">
+        <div>
+          <div class="headline">
+            <span class="domain-name">mystudiosolution.com</span>
+            <h1>Domain Available for Purchase</h1>
+            <p class="lead">I'm a broker — this premium domain is available for immediate purchase and transfer. Great fit for startups, agencies, or personal brands that want a memorable web identity.</p>
+            <div class="d-flex align-items-center gap-3">
+              <span class="price-badge">₹4,999</span>
+              <div class="text-start">
+                <div class="small-muted">Secure this domain today</div>
+              </div>
+            </div>
+
+            <div class="cta">
+              <a class="btn-contact" href="mailto:plugxperts@gmail.com?subject=Interested%20in%20mystudiosolution.com">Contact Now (Email)</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-card">
+          <div class="tag-icon" aria-hidden>
+            <!-- price tag icon -->
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 12.5L11.5 20L20 11.5V4H12.5L4 12.5Z" fill="white" opacity="0.95"/>
+              <circle cx="16.5" cy="7.5" r="1.25" fill="#0b1220"/>
+            </svg>
+          </div>
+          <h5 style="margin:1.4rem 0 .25rem; font-size: 20px; font-weight: 800; color: white;">Just ₹4,999</h5>
+          <p class="small-muted" style="margin:0 0 .8rem">One-time price. Transfer supported via registrar — auth code provided to buyer.</p>
+
+          <ul class="specs list-unstyled small">
+            <li>• Clean, brandable & short</li>
+            <li>• Ready for immediate transfer</li>
+            <li>• Ideal for business, portfolio, or Software</li>
+          </ul>
+
+          <div style="margin-top:1rem">
+            <a class="btn btn-sm btn-light" href="mailto:plugxperts@gmail.com?subject=Offer%20for%20mystudiosolution.com">Email to Make Offer</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:1.1rem;border-top:1px solid rgba(255,255,255,0.03);padding-top:1rem;display:flex;justify-content:space-between;align-items:center">
+        <div style="color:rgba(255,255,255,0.75)">Owned by: <strong>PlugXperts</strong></div>
+        <div style="color:rgba(255,255,255,0.6);font-size:.86rem"> ready to transfer</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- decorative blurred shapes -->
+  <svg class="bg-shape one" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg"><defs></defs><g fill="url(#g)"><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#6c5ce7"/><stop offset="1" stop-color="#00b894"/></linearGradient><rect x="0" y="0" width="600" height="400" rx="40"/></g></svg>
+  <svg class="bg-shape two" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg"><g fill="url(#g)"><rect x="0" y="0" width="600" height="400" rx="40"/></g></svg>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
